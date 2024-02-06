@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color:#413d66;
+    color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 110px;
+    gap: 4px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 34px;
+    margin-right: 11px;
+}
+
+.login-signup button {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 37px;
+    margin: 10px;
+    margin-right: 2px
+}
+.login-signup button:hover{
+    background-color: #333;
+    color: #fff;
+    /* font-size: 0.9rem; */
+
+}
+
+
+section {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;    font-weight: bold;
+    color: #010101; /* margin-right: 500px; */
+}
+
+p {
+    font-size: 1.2em;
+    /* margin-right: 269px; */
+    font-weight: bold;
+    color: #010101;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 219px -26px;  
+    margin-right: 500px;
+}
+.logo{
+    color: #8b8bc5;
+    font-family: cursive;
+    font-size: 26px;
+
+}
+.logo span{
+    color: #fff;
+    font-family:  math;
+    font-size: 22px;
+}
+.main{
+   
+}
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.sign{
+    /* margin: 0 10px; */
+}
